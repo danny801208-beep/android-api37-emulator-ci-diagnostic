@@ -198,12 +198,16 @@ Inspecting the AVD metadata and performing a controlled A/B test isolated the to
 
 ## Upstream context
 
-Related public discussions:
+Related public discussions and the comments that link back to this reproducible case:
 
 - GitHub runner-images issue #14484 — Command-line Tools versions and `Major.Minor` AVD targets:  
   https://github.com/actions/runner-images/issues/14484
+  - Published A/B reproduction comment:  
+    https://github.com/actions/runner-images/issues/14484#issuecomment-5915589950
 - ReactiveCircus/android-emulator-runner issue #482 — API 37.0 support:  
   https://github.com/ReactiveCircus/android-emulator-runner/issues/482
+  - Published A/B reproduction comment:  
+    https://github.com/ReactiveCircus/android-emulator-runner/issues/482#issuecomment-5915604980
 - ReactiveCircus/android-emulator-runner PR #483 — update SDK Command-line Tools to 22.0:  
   https://github.com/ReactiveCircus/android-emulator-runner/pull/483
 - Android SDK Command-line Tools documentation:  
