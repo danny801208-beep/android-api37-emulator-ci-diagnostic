@@ -1,0 +1,1 @@
+# android-api37-emulator-ci-diagnostic
