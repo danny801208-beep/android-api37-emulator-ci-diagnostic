@@ -6,7 +6,7 @@ These comments are intentionally app-agnostic and contain only the public diagno
 
 Issue: https://github.com/actions/runner-images/issues/14484
 
-```markdown
+````markdown
 I was able to reproduce an additional failure mode related to the `android-37.0` / `target=android-0` issue on a GitHub-hosted Ubuntu 24.04 runner and verify the fix with an A/B test.
 
 Environment:
@@ -54,13 +54,13 @@ One additional CI lesson: `sys.boot_completed=1` alone was not sufficient to det
 
 Full sanitized reproduction workflow and diagnostic notes:
 https://github.com/danny801208-beep/android-api37-emulator-ci-diagnostic
-```
+````
 
 ## ReactiveCircus/android-emulator-runner #482
 
 Issue: https://github.com/ReactiveCircus/android-emulator-runner/issues/482
 
-```markdown
+````markdown
 I reproduced and A/B tested a concrete API 37 failure mode that may be useful for this issue and for PR #483.
 
 Environment:
@@ -116,4 +116,4 @@ Also, `sys.boot_completed=1` alone was not enough to detect the failure because 
 
 Full sanitized reproduction workflow and A/B notes:
 https://github.com/danny801208-beep/android-api37-emulator-ci-diagnostic
-```
+````
